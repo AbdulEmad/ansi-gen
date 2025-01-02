@@ -2,7 +2,7 @@
 1. Clone the repo
 2. Build and install with cargo
 ```
-cargo install --path
+cargo install --path .
 ```
 3. Verify install
 ```
