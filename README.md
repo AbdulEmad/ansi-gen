@@ -10,5 +10,5 @@ ansi-gen --help
 ```
 4. Use ansi-gen
 ```
-img2ansi <IMAGE_PATH> [--width <WIDTH>] [--height <HEIGHT>]
+ansi-gen <IMAGE_PATH> [--width <WIDTH>] [--height <HEIGHT>]
 ```
