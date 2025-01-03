@@ -76,3 +76,12 @@ fn print_ansi_image(img: &DynamicImage) {
 fn ansi_reset() -> &'static str {
     "\x1b[0m"
 }
+
+#[test]
+fn test_resize_image(){
+    let img = image::DynamicImage::new_rgb8(100, 50);
+    let resized = resize_image(&img, Some(10), None);
+    assert_eq!(resized.width(), 10);
+    assert_eq!(resized.height(), 5);
+}
+
